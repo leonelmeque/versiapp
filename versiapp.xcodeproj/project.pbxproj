@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01B66EC9C963F061CC0345BE /* Pods_versiapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDA3D29A068F3DDF30493E5 /* Pods_versiapp.framework */; };
 		909A96992B8561B80037F5E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909A96982B8561B80037F5E9 /* AppDelegate.swift */; };
 		909A969B2B8561B80037F5E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909A969A2B8561B80037F5E9 /* SceneDelegate.swift */; };
-		909A969D2B8561B80037F5E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909A969C2B8561B80037F5E9 /* ViewController.swift */; };
-		909A96A02B8561B80037F5E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909A969E2B8561B80037F5E9 /* Main.storyboard */; };
+		909A969D2B8561B80037F5E9 /* TrendingFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909A969C2B8561B80037F5E9 /* TrendingFeedVC.swift */; };
 		909A96A22B8561BA0037F5E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 909A96A12B8561BA0037F5E9 /* Assets.xcassets */; };
 		909A96A52B8561BA0037F5E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 909A96A32B8561BA0037F5E9 /* LaunchScreen.storyboard */; };
+		90D1DF9D2B8F266A00C62A0B /* VATrendingRepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1DF9C2B8F266A00C62A0B /* VATrendingRepoCell.swift */; };
+		90D1DFA12B8F3C3200C62A0B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1DFA02B8F3C3200C62A0B /* Constants.swift */; };
+		90D1DFA32B8F3DE200C62A0B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1DFA22B8F3DE200C62A0B /* NetworkManager.swift */; };
+		90D1DFA52B8F3E0100C62A0B /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1DFA42B8F3E0100C62A0B /* DownloadService.swift */; };
+		90D1DFA92B91C37500C62A0B /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D1DFA82B91C37500C62A0B /* UIViewController+Ext.swift */; };
+		90D682DE2B88C27D00D2E532 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D682DD2B88C27D00D2E532 /* SearchVC.swift */; };
+		90D682E02B88C6F500D2E532 /* TabNavigatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D682DF2B88C6F500D2E532 /* TabNavigatorVC.swift */; };
+		90D682E32B88DD2700D2E532 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D682E22B88DD2700D2E532 /* UIView+Ext.swift */; };
+		90D682E62B88DEDD00D2E532 /* VACardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D682E52B88DEDD00D2E532 /* VACardCell.swift */; };
+		90D682E82B88DF1100D2E532 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D682E72B88DF1100D2E532 /* Repository.swift */; };
+		90D682EA2B88E0D500D2E532 /* VAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D682E92B88E0D500D2E532 /* VAButton.swift */; };
+		90D682EC2B88E1BB00D2E532 /* VARoundedBorderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D682EB2B88E1BB00D2E532 /* VARoundedBorderTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02A571127B86F1EB702AC49D /* Pods-versiapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-versiapp.debug.xcconfig"; path = "Target Support Files/Pods-versiapp/Pods-versiapp.debug.xcconfig"; sourceTree = "<group>"; };
+		2FDA3D29A068F3DDF30493E5 /* Pods_versiapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_versiapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		909A96952B8561B80037F5E9 /* versiapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = versiapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		909A96982B8561B80037F5E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		909A969A2B8561B80037F5E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		909A969C2B8561B80037F5E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		909A969F2B8561B80037F5E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		909A969C2B8561B80037F5E9 /* TrendingFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingFeedVC.swift; sourceTree = "<group>"; };
 		909A96A12B8561BA0037F5E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		909A96A42B8561BA0037F5E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		909A96A62B8561BA0037F5E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90D1DF9C2B8F266A00C62A0B /* VATrendingRepoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VATrendingRepoCell.swift; sourceTree = "<group>"; };
+		90D1DFA02B8F3C3200C62A0B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		90D1DFA22B8F3DE200C62A0B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		90D1DFA42B8F3E0100C62A0B /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
+		90D1DFA82B91C37500C62A0B /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		90D682DD2B88C27D00D2E532 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		90D682DF2B88C6F500D2E532 /* TabNavigatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigatorVC.swift; sourceTree = "<group>"; };
+		90D682E22B88DD2700D2E532 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		90D682E52B88DEDD00D2E532 /* VACardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VACardCell.swift; sourceTree = "<group>"; };
+		90D682E72B88DF1100D2E532 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		90D682E92B88E0D500D2E532 /* VAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VAButton.swift; sourceTree = "<group>"; };
+		90D682EB2B88E1BB00D2E532 /* VARoundedBorderTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VARoundedBorderTextField.swift; sourceTree = "<group>"; };
+		FC3AEC3C7CC3F902FE302E9A /* Pods-versiapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-versiapp.release.xcconfig"; path = "Target Support Files/Pods-versiapp/Pods-versiapp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01B66EC9C963F061CC0345BE /* Pods_versiapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23FA850695574898AA80053B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02A571127B86F1EB702AC49D /* Pods-versiapp.debug.xcconfig */,
+				FC3AEC3C7CC3F902FE302E9A /* Pods-versiapp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		909A968C2B8561B80037F5E9 = {
 			isa = PBXGroup;
 			children = (
 				909A96972B8561B80037F5E9 /* versiapp */,
 				909A96962B8561B80037F5E9 /* Products */,
+				23FA850695574898AA80053B /* Pods */,
+				98BC3E4538051C123BBDCE17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +94,90 @@
 		909A96972B8561B80037F5E9 /* versiapp */ = {
 			isa = PBXGroup;
 			children = (
+				90D1DF9F2B8F3C1F00C62A0B /* Utilities */,
+				90D1DF9E2B8F3C1900C62A0B /* Services */,
+				90D682E42B88DECB00D2E532 /* Components */,
+				90D682E12B88DD1200D2E532 /* Extensions */,
+				909A96AE2B8562800037F5E9 /* Controller */,
+				909A96AD2B85627C0037F5E9 /* Model */,
+				909A96AC2B8562750037F5E9 /* View */,
 				909A96982B8561B80037F5E9 /* AppDelegate.swift */,
 				909A969A2B8561B80037F5E9 /* SceneDelegate.swift */,
-				909A969C2B8561B80037F5E9 /* ViewController.swift */,
-				909A969E2B8561B80037F5E9 /* Main.storyboard */,
 				909A96A12B8561BA0037F5E9 /* Assets.xcassets */,
 				909A96A32B8561BA0037F5E9 /* LaunchScreen.storyboard */,
 				909A96A62B8561BA0037F5E9 /* Info.plist */,
 			);
 			path = versiapp;
+			sourceTree = "<group>";
+		};
+		909A96AC2B8562750037F5E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90D1DF9C2B8F266A00C62A0B /* VATrendingRepoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		909A96AD2B85627C0037F5E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90D682E72B88DF1100D2E532 /* Repository.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		909A96AE2B8562800037F5E9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				909A969C2B8561B80037F5E9 /* TrendingFeedVC.swift */,
+				90D682DD2B88C27D00D2E532 /* SearchVC.swift */,
+				90D682DF2B88C6F500D2E532 /* TabNavigatorVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		90D1DF9E2B8F3C1900C62A0B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				90D1DFA22B8F3DE200C62A0B /* NetworkManager.swift */,
+				90D1DFA42B8F3E0100C62A0B /* DownloadService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		90D1DF9F2B8F3C1F00C62A0B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				90D1DFA02B8F3C3200C62A0B /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		90D682E12B88DD1200D2E532 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				90D682E22B88DD2700D2E532 /* UIView+Ext.swift */,
+				90D1DFA82B91C37500C62A0B /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		90D682E42B88DECB00D2E532 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				90D682E52B88DEDD00D2E532 /* VACardCell.swift */,
+				90D682E92B88E0D500D2E532 /* VAButton.swift */,
+				90D682EB2B88E1BB00D2E532 /* VARoundedBorderTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		98BC3E4538051C123BBDCE17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FDA3D29A068F3DDF30493E5 /* Pods_versiapp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 909A96A92B8561BA0037F5E9 /* Build configuration list for PBXNativeTarget "versiapp" */;
 			buildPhases = (
+				4F75E2030E5DD57DE4A88538 /* [CP] Check Pods Manifest.lock */,
 				909A96912B8561B80037F5E9 /* Sources */,
 				909A96922B8561B80037F5E9 /* Frameworks */,
 				909A96932B8561B80037F5E9 /* Resources */,
+				3B2D2DF0F5C73C3B1DBE99CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +242,79 @@
 			files = (
 				909A96A52B8561BA0037F5E9 /* LaunchScreen.storyboard in Resources */,
 				909A96A22B8561BA0037F5E9 /* Assets.xcassets in Resources */,
-				909A96A02B8561B80037F5E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B2D2DF0F5C73C3B1DBE99CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-versiapp/Pods-versiapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-versiapp/Pods-versiapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-versiapp/Pods-versiapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F75E2030E5DD57DE4A88538 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-versiapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		909A96912B8561B80037F5E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				909A969D2B8561B80037F5E9 /* ViewController.swift in Sources */,
+				90D682DE2B88C27D00D2E532 /* SearchVC.swift in Sources */,
+				90D1DFA52B8F3E0100C62A0B /* DownloadService.swift in Sources */,
+				90D1DFA92B91C37500C62A0B /* UIViewController+Ext.swift in Sources */,
+				90D682E02B88C6F500D2E532 /* TabNavigatorVC.swift in Sources */,
+				90D682E32B88DD2700D2E532 /* UIView+Ext.swift in Sources */,
+				90D1DFA32B8F3DE200C62A0B /* NetworkManager.swift in Sources */,
+				90D682EA2B88E0D500D2E532 /* VAButton.swift in Sources */,
+				90D682E82B88DF1100D2E532 /* Repository.swift in Sources */,
+				909A969D2B8561B80037F5E9 /* TrendingFeedVC.swift in Sources */,
+				90D682EC2B88E1BB00D2E532 /* VARoundedBorderTextField.swift in Sources */,
 				909A96992B8561B80037F5E9 /* AppDelegate.swift in Sources */,
+				90D1DF9D2B8F266A00C62A0B /* VATrendingRepoCell.swift in Sources */,
+				90D682E62B88DEDD00D2E532 /* VACardCell.swift in Sources */,
 				909A969B2B8561B80037F5E9 /* SceneDelegate.swift in Sources */,
+				90D1DFA12B8F3C3200C62A0B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		909A969E2B8561B80037F5E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				909A969F2B8561B80037F5E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		909A96A32B8561BA0037F5E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,18 +447,20 @@
 		};
 		909A96AA2B8561BA0037F5E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A571127B86F1EB702AC49D /* Pods-versiapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = versiapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Versi;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,18 +476,20 @@
 		};
 		909A96AB2B8561BA0037F5E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC3AEC3C7CC3F902FE302E9A /* Pods-versiapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = versiapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Versi;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
